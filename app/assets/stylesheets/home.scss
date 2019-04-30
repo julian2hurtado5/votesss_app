@@ -3,16 +3,34 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 nav{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+.card{
+  margin-bottom: 20px;
 }
 
+body{
+  background: salmon;
+}
 #img-lan{
-  width: 100px;
+  width: 150px;
   height: 150px;
   display:block;
   margin:auto;
+  margin-top: 10px;
 }
 
 #currentUser{
   color: white;
+
+}
+
+#name{
+  display: inline;
+  text-align: center;
+}
+
+#BtnVote{
+  display: block;
+  text-align: center;
 }
